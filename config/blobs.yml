@@ -1,1 +1,8 @@
---- {}
+java/jdk-1.8.0_144-linux-x64.tar.gz:
+  size: 185515842
+  object_id: e78af84d-097a-479b-66ac-c09ee5c9a6b6
+  sha: d4c4f02908d39827393dd77f9eb8da348363efda
+jira/atlassian-jira-software-7.4.4.tar.gz:
+  size: 289778699
+  object_id: 6a6951ff-01ad-476c-7462-7cb2ff23bdca
+  sha: 674ea1ee67790f7155cffcc1a111ef26a20ccf61
