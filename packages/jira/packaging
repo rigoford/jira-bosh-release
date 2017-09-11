@@ -1,0 +1,9 @@
+set -e
+
+JIRA_VERION=7.4.4
+ARCHIVE=jira/atlassian-jira-software-${JIRA_VERSION}.tar.gz
+
+echo "Extracting archive..."
+tar xzf $ARCHIVE
+
+mv jdk${JAVA_VERSION}/* ${BOSH_INSTALL_TARGET}
