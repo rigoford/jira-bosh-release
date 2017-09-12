@@ -1,0 +1,34 @@
+---
+name: jira-bosh
+
+releases:
+- name: jira-bosh
+  version: latest
+
+stemcells:
+- alias: default
+  os: ubuntu-trusty
+  version: latest
+
+update:
+  canaries: 1
+  max_in_flight: 1
+  canary_watch_time: 1000-30000
+  update_watch_time: 1000-30000
+
+instance_groups:
+- name: jira-bosh
+  azs:
+  - z1
+  instances: 1
+  jobs:
+  - name: jira
+    release: jira-bosh
+    properties:
+      port: 8080
+  vm_type: g1-small
+  stemcell: default
+  networks:
+  - name: default
+    static_ips:
+    - 10.0.0.11
