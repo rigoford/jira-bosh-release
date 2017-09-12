@@ -31,4 +31,4 @@ instance_groups:
   networks:
   - name: default
     static_ips:
-    - 10.0.0.11
+    - 10.0.0.12
