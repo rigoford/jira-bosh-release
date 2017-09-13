@@ -2,6 +2,7 @@
 name: jira
 
 packages:
+  - java
   - jira
 
 templates:
