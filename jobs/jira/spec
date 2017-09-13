@@ -1,7 +1,9 @@
 ---
 name: jira
 
-packages: []
+packages:
+  - jira
+
 templates:
   bin/ctl: bin/ctl
   bin/monit_debugger: bin/monit_debugger
