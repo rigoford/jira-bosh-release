@@ -6,4 +6,4 @@ ARCHIVE=jira/atlassian-jira-software-${JIRA_VERSION}.tar.gz
 echo "Extracting archive..."
 tar xzf $ARCHIVE
 
-mv atlassian-jira-software-${JAVA_VERSION}-standalone/* ${BOSH_INSTALL_TARGET}
+mv atlassian-jira-software-${JIRA_VERSION}-standalone/* ${BOSH_INSTALL_TARGET}
